@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using CSS</title>
+
+    <style>
+
+        h2{
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .myclass {
+            color: green;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        #myid{
+            color: purple;
+            border: 2px solid purple;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        button{
+            background-color: black !important;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+
+        .mybtn{
+            background-color: blue;
+        }
+
+        #btn1{
+            background-color: crimson;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1 style="color: red; font-size: 40px;">Inline CSS is used to style individual tags at once</h1>
+    <h2>Internal CSS is used to style multiple tags at once</h2>
+    <h2 class="myclass">Name Selectors are used to select elements by their tag name</h2>
+    <p class="myclass">Class Selectors are used to select elements by their class name</p>
+
+    <h3 id="myid">Id Selectors are used to select elements by their id name</h3>
+
+    <button class="mybtn" id="btn1" style="background-color: blueviolet;">Click Me</button>
+
+</body>
+
+</html>
