@@ -1,1 +1,1 @@
-Started learning the CSS basics,properties and more..:)
+This Repository contains details about CSS Implementation on HTMl documents.
