@@ -1,1 +1,1 @@
-This Repository contains details about CSS Implementation on HTMl documents.
+This Repository contains details about CSS Implementation on HTML pages which I learned and implemented as a part of web development Learning.
